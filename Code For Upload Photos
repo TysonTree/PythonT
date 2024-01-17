@@ -1,0 +1,17 @@
+from flask import flask, render_template
+import os
+
+app = Flask(__name__)
+
+def index():
+    photos_directory = '/home/tysont/TysonTree/Documents/Internship/DownloadPic'
+
+    # Get the list of photo files in the directory
+    photo_files = [f for f in os.listdir(photos_directory) if f.endswith(('.jpg', '.png', '.jpeg'))]
+
+    # Render the HTML template and pass the list of photo files
+    return render_template('index.html', photo_files=photo_files)
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
