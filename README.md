@@ -12,7 +12,7 @@ Easily download PyCharm @ -- https://www.jetbrains.com/pycharm/download/?section
 SECOND == Specific Codes
 - Necessary Variables:
 file_path = "add/your/file/path.txt"
-- Code
+- Code: 
 with open(file_path, "r") as file:
   file_content = file.read()
 
