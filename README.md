@@ -21,5 +21,5 @@ with open(file_path, "r") as file:
 THIRD == Trouble Shooting 
 - Ensure file ends in .txt (error appears as such [File "<frozen codecs>", line 322, in decode UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc5 in position 10: invalid continuation byte])
 - Ensure file path is correct (easiest way is to copy and paste exactly from files bar)
-- Ensure code is following all necessary rules (added tip is to make code follow Snake case or similar convention for user friendly code)
+- Ensure code is following all necessary rules (added tip is to make code follow Snake case or similar convention for user friendly code).
 
